@@ -1,0 +1,31 @@
+XML-Feed-JavaScript version 0.01
+================================
+
+DESCRIPTION
+
+XML::Feed::JavaScript allows you to serialize XML feeds as JavaScript by using XML::Feed syndication feed parser for both RSS and Atom feeds.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  - XML::Feed
+  - Encode
+  - Encode::compat
+  - HTML::Template
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 by Kentaro Kuribayashi, <kentarok@gmail.com>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
